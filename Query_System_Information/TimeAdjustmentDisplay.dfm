@@ -1,0 +1,23 @@
+inherited fTimeAdjustmentDisplay: TfTimeAdjustmentDisplay
+  Caption = 'fTimeAdjustmentDisplay'
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ListView: TListView
+    Left = 0
+    Top = 0
+    Width = 536
+    Height = 348
+    Align = alClient
+    Columns = <
+      item
+        Caption = 'Information'
+        Width = 150
+      end
+      item
+        Caption = 'Value'
+        Width = 100
+      end>
+    TabOrder = 0
+    ViewStyle = vsReport
+  end
+end
